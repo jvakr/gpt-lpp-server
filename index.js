@@ -17,7 +17,7 @@ app.post("/extract-lpp", async (req, res) => {
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      model: "gpt-4o",,
+      model: "gpt-4o",
       messages: [
         {
           role: "system",
