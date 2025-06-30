@@ -70,8 +70,8 @@ Réponds uniquement avec ce JSON strict, sans aucun commentaire ou texte autour.
       body: JSON.stringify({
         model,
         messages,
-        temperature: 0.1,
-        max_tokens: 1000,
+        temperature: 0.0,
+        max_tokens: 3000,
       }),
     });
 
